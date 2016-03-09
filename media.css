@@ -1,0 +1,174 @@
+/*
+@media (max-width: 1090px) {
+    .bio__text {
+        text-align: center;
+        margin: 1em auto; 
+        padding: 0 0.5em;
+    }
+}
+*/
+
+/*
+@media (max-width: 640px) {
+    body {
+        font-size: 10px;
+    }
+    
+    .container {
+        padding: 0 0.4em; margin: 0;
+    }
+    
+    .block {
+        margin: 2em auto;
+    }
+    
+    .bio__text {
+        text-align: center;
+        padding: 0;
+    }
+}
+*/
+
+@media (max-width: 960px) {  
+    body {
+        font-size: 10px;
+    }
+    
+    .container {
+        padding: 0 0.4em; margin: 0;
+    }
+    
+    .block {
+        margin: 2em auto;
+    }
+    
+    .announce {
+        margin: 0;
+        padding: 2em 0;
+    }
+    
+    .sponsors {
+        margin-top: 6em;
+    }
+}
+
+@media (max-width: 640px) {
+    body {
+        font-size: 10px;
+    }
+    
+    .registration__text {
+        display: block;
+        width: 100%;
+        padding: 0 0.2em;
+        border: none;
+        text-align: center;
+    }
+    
+    .registration__text span {
+        display: none;
+    }
+    
+    .registration__field {
+        width: 95%;
+        margin: 0.3em auto;
+    }
+    
+    .registration .registration__button {
+        width: 95%;
+        background: #dfd;
+    }
+
+    .registration__form {
+        display: block;
+        margin: 0 auto; padding: 0;
+        width: 70%;
+        text-align: center;
+    }
+    
+    .bio__logo {
+        margin: 0 auto;
+    }
+    
+    .bio__text {
+        text-align: center;
+        margin: 0; padding: 0;
+        margin-top: 0.5em;
+    }
+    
+    .title {
+/*        margin-top: 1em;*/
+        text-align: center;
+        font-size: 4em;
+    }
+    
+    .reference {
+        display: block;
+        width: 100%;
+        padding: 0 0.2em;
+        margin-bottom: 3em;
+        text-align: center;
+    }
+    
+    .description {
+        display: block;
+        width: 100%;
+/*        padding: 0 0.5em 2em;*/
+    }
+    
+    .description__text {
+        width: 100%;
+        margin: 0; padding: 0;
+        text-align: left;
+    }
+    
+    .announce {
+        margin: 2em auto;
+        padding: 2em 0;
+    }
+    
+    .program {
+        margin: 6em auto;
+    }
+    
+    .spoiler {
+        padding-right: 2em;
+    }
+    
+    .program__desc {
+        font-weight: 100;
+    }
+    
+    .program__video {
+        display: none;
+    }
+    
+    .videoLink {
+        display: inline;
+        font-size: 2em;
+        text-align: left;
+        vertical-align: middle;
+        margin-left: 2.2em;
+    }
+    
+    .videoLink a {
+        color: #000;
+    }
+    
+/*
+    .timing {
+        display: none;
+    }
+*/
+}
+
+@media (max-width: 320px) {
+    body {
+        font-size: 8px;
+    }
+    
+    .registration__form {
+        width: 100%;
+    }
+}
+
