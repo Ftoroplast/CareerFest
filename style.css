@@ -26,6 +26,10 @@ body {
     overflow: hidden;
 }
 
+a {
+    color: #000;
+}
+
 /*
 .container .cols.col-1,
 .container .cols.col-2,
@@ -318,6 +322,10 @@ input[type="text"]:invalid ~ input[type="text"]:invalid ~ input[type="text"]:inv
 
 .videoLink {
     display: none;
+}
+
+.fileLink {
+    text-align: center;
 }
 
 .ended {
