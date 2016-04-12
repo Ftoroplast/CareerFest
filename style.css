@@ -9,7 +9,8 @@ html {
 body {
     margin: 0;
     padding: 0;
-/*    background-image: url(images/p5.jpg);*/
+/*    background-color: #dfd;*/
+    background-image: url(images/p5.jpg);
     font-size: 12px;
     font-family: 'Fira Sans', sans-serif;
 }
@@ -21,7 +22,12 @@ body {
     box-sizing: border-box;
     max-width: 1140px;
     background: white;
-    margin: 0 auto;
+/*
+    -webkit-box-shadow: 0 0 5px 5px lightgray;
+    -moz-box-shadow: 0 0 5px 5px lightgray;
+    box-shadow: 0 0 5px 5px lightgray;
+*/
+    margin: 2em auto;
     padding: 0 10em;
     overflow: hidden;
 }
@@ -311,8 +317,6 @@ input[type="text"]:invalid ~ input[type="text"]:invalid ~ input[type="text"]:inv
     transform: rotate(180deg);
 }
 
-
-.spoiler.s3 span,
 .spoiler.s4 span{
     display: block;
     font-size: 2em;

@@ -142,6 +142,10 @@
     .program__video {
         display: none;
     }
+
+    .fileLink {
+         margin-top: 1.5em;
+    }
     
     .videoLink {
         display: inline;
